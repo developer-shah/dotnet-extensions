@@ -12,7 +12,7 @@
     <packagedescription>
       # `Dotnet.Extensions`
 
-      General purpose extension package for dotnet applicaitons
+      General purpose extension package for .Net 6 applicaitons
     </packagedescription>
   </PropertyGroup>
 
