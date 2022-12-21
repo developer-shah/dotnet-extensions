@@ -10,14 +10,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{2454
 		package.json = package.json
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{1A1BE9A5-E85D-4D45-B391-912525F9CC58}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet.Extensions", "source\Gcp.Firestore.Contracts\Dotnet.Extensions.csproj", "{00722392-A9D1-440E-A366-F9354D7B36E1}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{1626F595-B582-49AB-8FC0-15A175ED8944}"
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\publishPackage.yml = .github\workflows\publishPackage.yml
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{C5D2829E-542B-4F16-8872-2944B3BDBC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet.Extensions", "source\Dotnet.Extensions\Dotnet.Extensions.csproj", "{A5EDFA74-1064-4BE2-8EE4-8D1738CD8D0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,17 +25,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{00722392-A9D1-440E-A366-F9354D7B36E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00722392-A9D1-440E-A366-F9354D7B36E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00722392-A9D1-440E-A366-F9354D7B36E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00722392-A9D1-440E-A366-F9354D7B36E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5EDFA74-1064-4BE2-8EE4-8D1738CD8D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5EDFA74-1064-4BE2-8EE4-8D1738CD8D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5EDFA74-1064-4BE2-8EE4-8D1738CD8D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5EDFA74-1064-4BE2-8EE4-8D1738CD8D0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{00722392-A9D1-440E-A366-F9354D7B36E1} = {1A1BE9A5-E85D-4D45-B391-912525F9CC58}
 		{1626F595-B582-49AB-8FC0-15A175ED8944} = {24542D1B-7992-4FB7-9151-BDAF63651E62}
+		{A5EDFA74-1064-4BE2-8EE4-8D1738CD8D0E} = {C5D2829E-542B-4F16-8872-2944B3BDBC93}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9680BD50-12A5-467D-B5F0-067904DF79AB}
