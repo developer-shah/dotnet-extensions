@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <PackageId>Mir.Newaz.Contoso.08.28.22.001.Test</PackageId>
+    <PackageId>Mir.Newaz.Dotnet.Extensions</PackageId>
     <Version>$(PackageVersion)</Version>
     <Authors>MirNewaz</Authors>
     <Company>MirNewaz</Company>
