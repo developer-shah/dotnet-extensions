@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Dotnet.Extensions</AssemblyName>
+    <RootNamespace>Dotnet.Extensions</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>Dotnet.Extensions</PackageId>
+    <Version>$(PackageVersion)</Version>
+    <Authors>Mir Newaz</Authors>
+    <Nullable>enable</Nullable>
+    <packagedescription>
+      # `Dotnet Extensions`
+
+      A dotnet extension package.
+    </packagedescription>
+    <RepositoryUrl>https://github.com/newazmir/dotnet-extensions</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
