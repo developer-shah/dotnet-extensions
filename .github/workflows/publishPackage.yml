@@ -11,6 +11,8 @@ jobs:
     uses: newazmir/shared-workflows/.github/workflows/net6-package.yml@main
     with:
       build: main
+      nuget: yes
     secrets:
       GITHUB_PACKAGE_TOKEN: ${{ secrets.CI_GH_PACKAGE_TOKEN }}
       GITHUB_PACKAGE_USERNAME: ${{ secrets.CI_GH_PACKAGE_USERNAME }}
+      GITHUB_NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
