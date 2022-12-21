@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <PackageId>Msn.Uk.Dotnet.Extensions</PackageId>
+    <PackageId>Aalia.Dotnet.Extensions</PackageId>
     <Version>$(PackageVersion)</Version>
     <Authors>MirNewaz</Authors>
     <Company>MirNewaz</Company>
