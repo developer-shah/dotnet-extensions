@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: release-package
-    uses: newazmir/shared-workflows/.github/workflows/net6-package.yml@main
+    uses: developer-shah/shared-workflows/.github/workflows/net6-package.yml@main
     with:
       build: main
       nuget: yes
